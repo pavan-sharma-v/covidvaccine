@@ -13,8 +13,8 @@ function data() {
     else if (y == "") {
         alert(" Enter Date");
     }
-        else{
-        alert("Enter Pincode Dnd Date");
+        else if(x==""&&y==""){
+        alert("Enter Pincode And Date");
     }
     else {
         const api_url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=" + x + "&date=" + y;
