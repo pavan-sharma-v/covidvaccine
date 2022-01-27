@@ -1,19 +1,19 @@
-function autoRefresh(){
+function autoRefresh() {
     window.location = window.location.href;
 }
 function data() {
 
     var x = document.getElementById("pin").value;
     var y = document.getElementById("date").value;
-
+console.log(y);
     y = y.split("-").reverse().join("-");
-     if (x == "") {
+    if (x == "") {
         alert(" Enter Pincode");
     }
     else if (y == "") {
         alert(" Enter Date");
     }
-        else if(x==""&&y==""){
+    else if (x == "" && y == "") {
         alert("Enter Pincode And Date");
     }
     else {
@@ -26,7 +26,7 @@ function data() {
                 document.getElementById("q").style.display = "block";
             }
             else {
-                 document.getElementById("z").style.display = "block";
+                document.getElementById("z").style.display = "block";
                 document.getElementById("reg").style.display = "block";
                 document.getElementById("z").scrollIntoView();
                 // document.getElementById("a").innerHTML = data.sessions[0].center_id;
