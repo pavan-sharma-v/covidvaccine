@@ -1,12 +1,17 @@
-
+function autoRefresh(){
+    window.location = window.location.href;
+}
 function data() {
 
     var x = document.getElementById("pin").value;
     var y = document.getElementById("date").value;
 
     y = y.split("-").reverse().join("-");
-    if (x == "" || y == "") {
-        alert("cannot be empty");
+     if (x == "") {
+        alert(" Enter Pincode");
+    }
+    if (y == "") {
+        alert(" Enter Date");
     }
     else {
         const api_url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=" + x + "&date=" + y;
