@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('injection.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container{
+    margin-top: 8%;
+    border-width: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:black;
+    background-color:lightgrey;
+    opacity: 0.6;
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 500;
+}
+#z{
+    display:none;
+}
+#q{
+    display:none;
+}
+hr{
+    color: blue;
+    size: 60px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: green;
+}
+#reg{
+    display: none;
+}
