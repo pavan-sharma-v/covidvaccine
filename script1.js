@@ -13,6 +13,9 @@ function data() {
     if (y == "") {
         alert(" Enter Date");
     }
+        if(x=""&&y=""){
+        alert("Enter Pincode Dnd Date");
+    }
     else {
         const api_url = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=" + x + "&date=" + y;
         console.log(api_url);
