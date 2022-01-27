@@ -42,7 +42,7 @@ function data() {
                 // document.getElementById("s").innerHTML = data.sessions[0].min_age_limi;
                 // document.getElementById("t").innerHTML = data.sessions[0].max_age_limit;
                 // document.getElementById("u").innerHTML = data.sessions[0].allow_all_age;
-                document.getElementById("v").innerHTML = data.sessions[0].vaccine;
+//                 document.getElementById("v").innerHTML = data.sessions[0].vaccine;
                 // document.getElementById("w").innerHTML = data.sessions[0].slots;
             }
         }
