@@ -13,7 +13,7 @@ function data() {
     if (y == "") {
         alert(" Enter Date");
     }
-        if(x=""&&y=""){
+        if(x==""&&y==""){
         alert("Enter Pincode Dnd Date");
     }
     else {
