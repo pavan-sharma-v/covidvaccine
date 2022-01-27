@@ -10,10 +10,10 @@ function data() {
      if (x == "") {
         alert(" Enter Pincode");
     }
-    if (y == "") {
+    else if (y == "") {
         alert(" Enter Date");
     }
-        if(x==""&&y==""){
+        else{
         alert("Enter Pincode Dnd Date");
     }
     else {
